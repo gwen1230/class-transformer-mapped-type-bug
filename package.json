@@ -1,6 +1,6 @@
 {
   "name": "class-validator",
-  "version": "1.0.0",
+  "version": "1.22.19",
   "description": "",
   "main": "index.html",
   "scripts": {
@@ -8,20 +8,23 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@nestjs/common": "9.4.3",
-    "@nestjs/core": "9.4.3",
-    "@nestjs/mapped-types": "2.0.3",
-    "class-transformer": "0.5.1",
+    "@nestjs/common": "^8.0.0 || ^9.0.0 || ^10.0.0",
+    "@nestjs/mapped-types": "^2.0.4",
+    "babel-types": "^6.26.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.0 || ^0.14.0",
     "parcel-bundler": "^1.6.1",
-    "reflect-metadata": "0.1.13",
+    "reflect-metadata": "^0.1.13",
     "rxjs": "7.8.1",
     "tslib": "2.5.0"
   },
   "devDependencies": {
+    "@types/babel-types": "^6",
     "typescript": "4.4.4"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
   },
-  "keywords": []
+  "keywords": [],
+  "packageManager": "yarn@1.2.0"
 }
