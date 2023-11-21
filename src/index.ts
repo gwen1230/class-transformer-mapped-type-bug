@@ -1,6 +1,6 @@
-import "reflect-metadata";
-import { Type, plainToInstance } from "class-transformer";
-import { PartialType } from "@nestjs/mapped-types";
+import 'reflect-metadata';
+import { Type, plainToInstance } from 'class-transformer';
+import { PartialType } from '@nestjs/mapped-types';
 
 class B {
   label!: string;
@@ -17,10 +17,10 @@ class A extends PartialType(C) {
 }
 
 const a = plainToInstance(A, {
-  inner: { label: "inner" },
-  props: { label: "props" }
+  inner: { label: 'inner' },
+  props: { label: 'props' },
 });
 
-console.log(a instanceof A); // true
-console.log(a.inner instanceof B); // true
-console.log(a.props instanceof B); // false -> Should be true
+console.log('should be true', a instanceof A); // true
+console.log('should be true', a.inner instanceof B); // true
+console.log('should be true', a.props instanceof B); // false -> Should be true
