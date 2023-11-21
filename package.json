@@ -1,0 +1,27 @@
+{
+  "name": "class-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@nestjs/common": "9.4.3",
+    "@nestjs/core": "9.4.3",
+    "@nestjs/mapped-types": "2.0.3",
+    "class-transformer": "0.5.1",
+    "parcel-bundler": "^1.6.1",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "7.8.1",
+    "tslib": "2.5.0"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
